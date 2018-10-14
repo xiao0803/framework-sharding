@@ -1,0 +1,246 @@
+2018-05-14-14-29 [main] [com.xlj.shardingjdbc.Application] [INFO] - Starting Application on Lenovo-PC with PID 6332 (F:\myProject\framework\sharding\sharding-jdbc-demo\target\classes started by LENOVO in F:\myProject\framework\sharding\sharding-jdbc-demo)
+  2018-05-14-14-29 [main] [com.xlj.shardingjdbc.Application] [INFO] - No active profile set, falling back to default profiles: default
+  2018-05-14-14-29 [main] [org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext] [INFO] - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@3c72f59f: startup date [Mon May 14 14:29:38 CST 2018]; root of context hierarchy
+  2018-05-14-14-29 [background-preinit] [org.hibernate.validator.internal.util.Version] [INFO] - HV000001: Hibernate Validator 5.2.4.Final
+  2018-05-14-14-29 [main] [org.mybatis.spring.mapper.ClassPathMapperScanner] [DEBUG] - Identified candidate component class: file [F:\myProject\framework\sharding\sharding-jdbc-demo\target\classes\com\xlj\shardingjdbc\mapper\UserMapper.class]
+  2018-05-14-14-29 [main] [org.mybatis.spring.mapper.ClassPathMapperScanner] [DEBUG] - Creating MapperFactoryBean with name 'userMapper' and 'com.xlj.shardingjdbc.mapper.UserMapper' mapperInterface
+  2018-05-14-14-29 [main] [org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker] [INFO] - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [class org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$433f2d48] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+  2018-05-14-14-29 [main] [org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer] [INFO] - Tomcat initialized with port(s): 8080 (http)
+  2018-05-14-14-29 [localhost-startStop-1] [org.springframework.web.context.ContextLoader] [INFO] - Root WebApplicationContext: initialization completed in 4664 ms
+  2018-05-14-14-29 [localhost-startStop-1] [org.springframework.boot.web.servlet.ServletRegistrationBean] [INFO] - Mapping servlet: 'statViewServlet' to [/druid-stats/*]
+  2018-05-14-14-29 [localhost-startStop-1] [org.springframework.boot.web.servlet.ServletRegistrationBean] [INFO] - Mapping servlet: 'dispatcherServlet' to [/]
+  2018-05-14-14-29 [localhost-startStop-1] [org.springframework.boot.web.servlet.FilterRegistrationBean] [INFO] - Mapping filter: 'characterEncodingFilter' to: [/*]
+  2018-05-14-14-29 [localhost-startStop-1] [org.springframework.boot.web.servlet.FilterRegistrationBean] [INFO] - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+  2018-05-14-14-29 [localhost-startStop-1] [org.springframework.boot.web.servlet.FilterRegistrationBean] [INFO] - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+  2018-05-14-14-29 [localhost-startStop-1] [org.springframework.boot.web.servlet.FilterRegistrationBean] [INFO] - Mapping filter: 'requestContextFilter' to: [/*]
+  2018-05-14-14-29 [localhost-startStop-1] [org.springframework.boot.web.servlet.FilterRegistrationBean] [INFO] - Mapping filter: 'webStatFilter' to urls: [/*]
+  2018-05-14-14-29 [main] [com.alibaba.druid.pool.DruidDataSource] [INFO] - {dataSource-1} inited
+  2018-05-14-14-29 [main] [com.alibaba.druid.pool.DruidDataSource] [INFO] - {dataSource-2} inited
+  2018-05-14-14-29 [main] [org.apache.ibatis.logging.LogFactory] [DEBUG] - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+  2018-05-14-14-29 [main] [org.mybatis.spring.SqlSessionFactoryBean] [DEBUG] - Property 'configuration' or 'configLocation' not specified, using default MyBatis Configuration
+  2018-05-14-14-29 [main] [org.mybatis.spring.SqlSessionFactoryBean] [DEBUG] - Property 'mapperLocations' was not specified or no matching resources found
+  2018-05-14-14-29 [main] [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter] [INFO] - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@3c72f59f: startup date [Mon May 14 14:29:38 CST 2018]; root of context hierarchy
+  2018-05-14-14-29 [main] [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] [INFO] - Mapped "{[/update]}" onto public void com.xlj.shardingjdbc.controller.UserMapperControllerTest.update() throws java.lang.Exception
+  2018-05-14-14-29 [main] [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] [INFO] - Mapped "{[/getAll]}" onto public void com.xlj.shardingjdbc.controller.UserMapperControllerTest.getAll() throws java.lang.Exception
+  2018-05-14-14-29 [main] [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] [INFO] - Mapped "{[/requestTest]}" onto public void com.xlj.shardingjdbc.controller.UserMapperControllerTest.requestTest()
+  2018-05-14-14-29 [main] [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] [INFO] - Mapped "{[/getOneSlave]}" onto public void com.xlj.shardingjdbc.controller.UserMapperControllerTest.getOneSlave() throws java.lang.Exception
+  2018-05-14-14-29 [main] [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] [INFO] - Mapped "{[/getOne]}" onto public void com.xlj.shardingjdbc.controller.UserMapperControllerTest.getOne() throws java.lang.Exception
+  2018-05-14-14-29 [main] [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] [INFO] - Mapped "{[/updateFailure]}" onto public void com.xlj.shardingjdbc.controller.UserMapperControllerTest.updateFailure()
+  2018-05-14-14-29 [main] [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] [INFO] - Mapped "{[/updateWithoutInsertFailure]}" onto public void com.xlj.shardingjdbc.controller.UserMapperControllerTest.updateWithoutInsertFailure()
+  2018-05-14-14-29 [main] [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] [INFO] - Mapped "{[/welcome]}" onto public java.lang.String com.xlj.shardingjdbc.SampleController.hello()
+  2018-05-14-14-29 [main] [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] [INFO] - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+  2018-05-14-14-29 [main] [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] [INFO] - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+  2018-05-14-14-29 [main] [org.springframework.web.servlet.handler.SimpleUrlHandlerMapping] [INFO] - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+  2018-05-14-14-29 [main] [org.springframework.web.servlet.handler.SimpleUrlHandlerMapping] [INFO] - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+  2018-05-14-14-29 [main] [org.springframework.web.servlet.handler.SimpleUrlHandlerMapping] [INFO] - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+  2018-05-14-14-29 [main] [org.springframework.jmx.export.annotation.AnnotationMBeanExporter] [INFO] - Registering beans for JMX exposure on startup
+  2018-05-14-14-29 [main] [org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer] [INFO] - Tomcat started on port(s): 8080 (http)
+  2018-05-14-14-29 [main] [com.xlj.shardingjdbc.Application] [INFO] - Started Application in 8.832 seconds (JVM running for 9.591)
+  2018-05-14-14-29 [http-nio-8080-exec-1] [org.springframework.web.servlet.DispatcherServlet] [INFO] - FrameworkServlet 'dispatcherServlet': initialization started
+  2018-05-14-14-29 [http-nio-8080-exec-1] [org.springframework.web.servlet.DispatcherServlet] [INFO] - FrameworkServlet 'dispatcherServlet': initialization completed in 35 ms
+  2018-05-14-14-30 [http-nio-8080-exec-1] [org.mybatis.spring.SqlSessionUtils] [DEBUG] - Creating a new SqlSession
+  2018-05-14-14-30 [http-nio-8080-exec-1] [org.mybatis.spring.SqlSessionUtils] [DEBUG] - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@246fd0fd] was not registered for synchronization because synchronization is not active
+  2018-05-14-14-30 [http-nio-8080-exec-1] [org.mybatis.spring.transaction.SpringManagedTransaction] [DEBUG] - JDBC Connection [com.dangdang.ddframe.rdb.sharding.jdbc.core.connection.ShardingConnection@6b670923] will not be managed by Spring
+  2018-05-14-14-30 [http-nio-8080-exec-1] [org.mybatis.spring.SqlSessionUtils] [DEBUG] - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@246fd0fd]
+  2018-05-14-14-30 [http-nio-8080-exec-1] [com.alibaba.druid.pool.PreparedStatementPool] [DEBUG] - {conn-10003, pstmt-20002} enter cache
+  2018-05-14-14-30 [http-nio-8080-exec-1] [com.alibaba.druid.pool.PreparedStatementPool] [DEBUG] - {conn-10003, pstmt-20003} enter cache
+  2018-05-14-14-30 [http-nio-8080-exec-1] [com.alibaba.druid.pool.PreparedStatementPool] [DEBUG] - {conn-110003, pstmt-120002} enter cache
+  2018-05-14-14-30 [http-nio-8080-exec-1] [com.alibaba.druid.pool.PreparedStatementPool] [DEBUG] - {conn-110003, pstmt-120003} enter cache
+  2018-05-14-14-30 [http-nio-8080-exec-1] [org.mybatis.spring.SqlSessionUtils] [DEBUG] - Creating a new SqlSession
+  2018-05-14-14-30 [http-nio-8080-exec-1] [org.mybatis.spring.SqlSessionUtils] [DEBUG] - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@21092d3] was not registered for synchronization because synchronization is not active
+  2018-05-14-14-30 [http-nio-8080-exec-1] [org.mybatis.spring.transaction.SpringManagedTransaction] [DEBUG] - JDBC Connection [com.dangdang.ddframe.rdb.sharding.jdbc.core.connection.ShardingConnection@2e9ce42c] will not be managed by Spring
+  2018-05-14-14-30 [http-nio-8080-exec-1] [org.mybatis.spring.SqlSessionUtils] [DEBUG] - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@21092d3]
+  2018-05-14-14-30 [http-nio-8080-exec-1] [com.alibaba.druid.pool.PreparedStatementPool] [DEBUG] - {conn-10003, pstmt-20004} enter cache
+  2018-05-14-14-30 [http-nio-8080-exec-1] [com.xlj.shardingjdbc.controller.UserMapperControllerTest] [INFO] - 新增成功
+  2018-05-14-14-30 [http-nio-8080-exec-1] [org.mybatis.spring.SqlSessionUtils] [DEBUG] - Creating a new SqlSession
+  2018-05-14-14-30 [http-nio-8080-exec-1] [org.mybatis.spring.SqlSessionUtils] [DEBUG] - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@4bef9720] was not registered for synchronization because synchronization is not active
+  2018-05-14-14-30 [http-nio-8080-exec-1] [org.mybatis.spring.transaction.SpringManagedTransaction] [DEBUG] - JDBC Connection [com.dangdang.ddframe.rdb.sharding.jdbc.core.connection.ShardingConnection@13263efc] will not be managed by Spring
+  2018-05-14-14-30 [http-nio-8080-exec-1] [org.mybatis.spring.SqlSessionUtils] [DEBUG] - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@4bef9720]
+  2018-05-14-14-30 [http-nio-8080-exec-1] [com.alibaba.druid.pool.PreparedStatementPool] [DEBUG] - {conn-10003, pstmt-20005} enter cache
+  2018-05-14-14-30 [http-nio-8080-exec-1] [com.alibaba.druid.pool.PreparedStatementPool] [DEBUG] - {conn-10003, pstmt-20006} enter cache
+  2018-05-14-14-30 [http-nio-8080-exec-1] [com.alibaba.druid.pool.PreparedStatementPool] [DEBUG] - {conn-110003, pstmt-120004} enter cache
+  2018-05-14-14-30 [http-nio-8080-exec-1] [com.alibaba.druid.pool.PreparedStatementPool] [DEBUG] - {conn-110003, pstmt-120005} enter cache
+  2018-05-14-14-30 [http-nio-8080-exec-1] [com.xlj.shardingjdbc.controller.UserMapperControllerTest] [INFO] - all查询成功
+  2018-05-14-14-37 [main] [com.xlj.shardingjdbc.Application] [INFO] - Starting Application on Lenovo-PC with PID 18516 (F:\myProject\framework\sharding\sharding-jdbc-demo\target\classes started by LENOVO in F:\myProject\framework\sharding\sharding-jdbc-demo)
+  2018-05-14-14-37 [main] [com.xlj.shardingjdbc.Application] [INFO] - No active profile set, falling back to default profiles: default
+  2018-05-14-14-37 [main] [org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext] [INFO] - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@3c72f59f: startup date [Mon May 14 14:37:01 CST 2018]; root of context hierarchy
+  2018-05-14-14-37 [background-preinit] [org.hibernate.validator.internal.util.Version] [INFO] - HV000001: Hibernate Validator 5.2.4.Final
+  2018-05-14-14-37 [main] [org.mybatis.spring.mapper.ClassPathMapperScanner] [DEBUG] - Identified candidate component class: file [F:\myProject\framework\sharding\sharding-jdbc-demo\target\classes\com\xlj\shardingjdbc\mapper\UserMapper.class]
+  2018-05-14-14-37 [main] [org.mybatis.spring.mapper.ClassPathMapperScanner] [DEBUG] - Creating MapperFactoryBean with name 'userMapper' and 'com.xlj.shardingjdbc.mapper.UserMapper' mapperInterface
+  2018-05-14-14-37 [main] [org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker] [INFO] - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [class org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$433f2d48] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+  2018-05-14-14-37 [main] [org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer] [INFO] - Tomcat initialized with port(s): 8080 (http)
+  2018-05-14-14-37 [localhost-startStop-1] [org.springframework.web.context.ContextLoader] [INFO] - Root WebApplicationContext: initialization completed in 4325 ms
+  2018-05-14-14-37 [localhost-startStop-1] [org.springframework.boot.web.servlet.ServletRegistrationBean] [INFO] - Mapping servlet: 'statViewServlet' to [/druid-stats/*]
+  2018-05-14-14-37 [localhost-startStop-1] [org.springframework.boot.web.servlet.ServletRegistrationBean] [INFO] - Mapping servlet: 'dispatcherServlet' to [/]
+  2018-05-14-14-37 [localhost-startStop-1] [org.springframework.boot.web.servlet.FilterRegistrationBean] [INFO] - Mapping filter: 'characterEncodingFilter' to: [/*]
+  2018-05-14-14-37 [localhost-startStop-1] [org.springframework.boot.web.servlet.FilterRegistrationBean] [INFO] - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+  2018-05-14-14-37 [localhost-startStop-1] [org.springframework.boot.web.servlet.FilterRegistrationBean] [INFO] - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+  2018-05-14-14-37 [localhost-startStop-1] [org.springframework.boot.web.servlet.FilterRegistrationBean] [INFO] - Mapping filter: 'requestContextFilter' to: [/*]
+  2018-05-14-14-37 [localhost-startStop-1] [org.springframework.boot.web.servlet.FilterRegistrationBean] [INFO] - Mapping filter: 'webStatFilter' to urls: [/*]
+  2018-05-14-14-37 [main] [com.alibaba.druid.pool.DruidDataSource] [INFO] - {dataSource-1} inited
+  2018-05-14-14-37 [main] [com.alibaba.druid.pool.DruidDataSource] [INFO] - {dataSource-2} inited
+  2018-05-14-14-37 [main] [org.apache.ibatis.logging.LogFactory] [DEBUG] - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+  2018-05-14-14-37 [main] [org.mybatis.spring.SqlSessionFactoryBean] [DEBUG] - Property 'configuration' or 'configLocation' not specified, using default MyBatis Configuration
+  2018-05-14-14-37 [main] [org.mybatis.spring.SqlSessionFactoryBean] [DEBUG] - Property 'mapperLocations' was not specified or no matching resources found
+  2018-05-14-14-37 [main] [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter] [INFO] - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@3c72f59f: startup date [Mon May 14 14:37:01 CST 2018]; root of context hierarchy
+  2018-05-14-14-37 [main] [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] [INFO] - Mapped "{[/update]}" onto public void com.xlj.shardingjdbc.controller.UserMapperControllerTest.update() throws java.lang.Exception
+  2018-05-14-14-37 [main] [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] [INFO] - Mapped "{[/getAll]}" onto public void com.xlj.shardingjdbc.controller.UserMapperControllerTest.getAll() throws java.lang.Exception
+  2018-05-14-14-37 [main] [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] [INFO] - Mapped "{[/updateFailure]}" onto public void com.xlj.shardingjdbc.controller.UserMapperControllerTest.updateFailure()
+  2018-05-14-14-37 [main] [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] [INFO] - Mapped "{[/getOneSlave]}" onto public void com.xlj.shardingjdbc.controller.UserMapperControllerTest.getOneSlave() throws java.lang.Exception
+  2018-05-14-14-37 [main] [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] [INFO] - Mapped "{[/getOne]}" onto public void com.xlj.shardingjdbc.controller.UserMapperControllerTest.getOne() throws java.lang.Exception
+  2018-05-14-14-37 [main] [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] [INFO] - Mapped "{[/requestTest]}" onto public void com.xlj.shardingjdbc.controller.UserMapperControllerTest.requestTest()
+  2018-05-14-14-37 [main] [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] [INFO] - Mapped "{[/updateWithoutInsertFailure]}" onto public void com.xlj.shardingjdbc.controller.UserMapperControllerTest.updateWithoutInsertFailure()
+  2018-05-14-14-37 [main] [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] [INFO] - Mapped "{[/welcome]}" onto public java.lang.String com.xlj.shardingjdbc.SampleController.hello()
+  2018-05-14-14-37 [main] [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] [INFO] - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+  2018-05-14-14-37 [main] [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] [INFO] - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+  2018-05-14-14-37 [main] [org.springframework.web.servlet.handler.SimpleUrlHandlerMapping] [INFO] - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+  2018-05-14-14-37 [main] [org.springframework.web.servlet.handler.SimpleUrlHandlerMapping] [INFO] - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+  2018-05-14-14-37 [main] [org.springframework.web.servlet.handler.SimpleUrlHandlerMapping] [INFO] - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+  2018-05-14-14-37 [main] [org.springframework.jmx.export.annotation.AnnotationMBeanExporter] [INFO] - Registering beans for JMX exposure on startup
+  2018-05-14-14-37 [main] [org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer] [INFO] - Tomcat started on port(s): 8080 (http)
+  2018-05-14-14-37 [main] [com.xlj.shardingjdbc.Application] [INFO] - Started Application in 8.427 seconds (JVM running for 9.254)
+  2018-05-14-14-37 [http-nio-8080-exec-1] [org.springframework.web.servlet.DispatcherServlet] [INFO] - FrameworkServlet 'dispatcherServlet': initialization started
+  2018-05-14-14-37 [http-nio-8080-exec-1] [org.springframework.web.servlet.DispatcherServlet] [INFO] - FrameworkServlet 'dispatcherServlet': initialization completed in 46 ms
+  2018-05-14-14-37 [http-nio-8080-exec-1] [org.mybatis.spring.SqlSessionUtils] [DEBUG] - Creating a new SqlSession
+  2018-05-14-14-37 [http-nio-8080-exec-1] [org.mybatis.spring.SqlSessionUtils] [DEBUG] - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@25232813] was not registered for synchronization because synchronization is not active
+  2018-05-14-14-37 [http-nio-8080-exec-1] [org.springframework.jdbc.datasource.DataSourceUtils] [DEBUG] - Fetching JDBC Connection from DataSource
+  2018-05-14-14-37 [http-nio-8080-exec-1] [org.mybatis.spring.transaction.SpringManagedTransaction] [DEBUG] - JDBC Connection [com.dangdang.ddframe.rdb.sharding.jdbc.core.connection.ShardingConnection@65b40e74] will not be managed by Spring
+  2018-05-14-14-37 [http-nio-8080-exec-1] [org.mybatis.spring.SqlSessionUtils] [DEBUG] - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@25232813]
+  2018-05-14-14-37 [http-nio-8080-exec-1] [org.springframework.jdbc.datasource.DataSourceUtils] [DEBUG] - Returning JDBC Connection to DataSource
+  2018-05-14-14-37 [http-nio-8080-exec-1] [com.alibaba.druid.pool.PreparedStatementPool] [DEBUG] - {conn-10003, pstmt-20002} enter cache
+  2018-05-14-14-37 [http-nio-8080-exec-1] [com.alibaba.druid.pool.PreparedStatementPool] [DEBUG] - {conn-10003, pstmt-20003} enter cache
+  2018-05-14-14-37 [http-nio-8080-exec-1] [com.alibaba.druid.pool.PreparedStatementPool] [DEBUG] - {conn-110003, pstmt-120002} enter cache
+  2018-05-14-14-37 [http-nio-8080-exec-1] [com.alibaba.druid.pool.PreparedStatementPool] [DEBUG] - {conn-110003, pstmt-120003} enter cache
+  2018-05-14-14-37 [http-nio-8080-exec-1] [org.mybatis.spring.SqlSessionUtils] [DEBUG] - Creating a new SqlSession
+  2018-05-14-14-37 [http-nio-8080-exec-1] [org.mybatis.spring.SqlSessionUtils] [DEBUG] - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@5e3cce16] was not registered for synchronization because synchronization is not active
+  2018-05-14-14-37 [http-nio-8080-exec-1] [org.springframework.jdbc.datasource.DataSourceUtils] [DEBUG] - Fetching JDBC Connection from DataSource
+  2018-05-14-14-37 [http-nio-8080-exec-1] [org.mybatis.spring.transaction.SpringManagedTransaction] [DEBUG] - JDBC Connection [com.dangdang.ddframe.rdb.sharding.jdbc.core.connection.ShardingConnection@7a540304] will not be managed by Spring
+  2018-05-14-14-37 [http-nio-8080-exec-1] [org.mybatis.spring.SqlSessionUtils] [DEBUG] - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@5e3cce16]
+  2018-05-14-14-37 [http-nio-8080-exec-1] [org.springframework.jdbc.datasource.DataSourceUtils] [DEBUG] - Returning JDBC Connection to DataSource
+  2018-05-14-14-37 [http-nio-8080-exec-1] [com.alibaba.druid.pool.PreparedStatementPool] [DEBUG] - {conn-10003, pstmt-20004} enter cache
+  2018-05-14-14-37 [http-nio-8080-exec-1] [com.xlj.shardingjdbc.controller.UserMapperControllerTest] [INFO] - 新增成功
+  2018-05-14-14-37 [http-nio-8080-exec-1] [org.mybatis.spring.SqlSessionUtils] [DEBUG] - Creating a new SqlSession
+  2018-05-14-14-37 [http-nio-8080-exec-1] [org.mybatis.spring.SqlSessionUtils] [DEBUG] - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@4c9479f] was not registered for synchronization because synchronization is not active
+  2018-05-14-14-37 [http-nio-8080-exec-1] [org.springframework.jdbc.datasource.DataSourceUtils] [DEBUG] - Fetching JDBC Connection from DataSource
+  2018-05-14-14-37 [http-nio-8080-exec-1] [org.mybatis.spring.transaction.SpringManagedTransaction] [DEBUG] - JDBC Connection [com.dangdang.ddframe.rdb.sharding.jdbc.core.connection.ShardingConnection@a861f38] will not be managed by Spring
+  2018-05-14-14-37 [http-nio-8080-exec-1] [org.mybatis.spring.SqlSessionUtils] [DEBUG] - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@4c9479f]
+  2018-05-14-14-37 [http-nio-8080-exec-1] [org.springframework.jdbc.datasource.DataSourceUtils] [DEBUG] - Returning JDBC Connection to DataSource
+  2018-05-14-14-37 [http-nio-8080-exec-1] [com.alibaba.druid.pool.PreparedStatementPool] [DEBUG] - {conn-10003, pstmt-20005} enter cache
+  2018-05-14-14-37 [http-nio-8080-exec-1] [com.alibaba.druid.pool.PreparedStatementPool] [DEBUG] - {conn-10003, pstmt-20006} enter cache
+  2018-05-14-14-37 [http-nio-8080-exec-1] [com.alibaba.druid.pool.PreparedStatementPool] [DEBUG] - {conn-110003, pstmt-120004} enter cache
+  2018-05-14-14-37 [http-nio-8080-exec-1] [com.alibaba.druid.pool.PreparedStatementPool] [DEBUG] - {conn-110003, pstmt-120005} enter cache
+  2018-05-14-14-37 [http-nio-8080-exec-1] [com.xlj.shardingjdbc.controller.UserMapperControllerTest] [INFO] - all查询成功
+  2018-05-14-14-38 [http-nio-8080-exec-2] [org.mybatis.spring.SqlSessionUtils] [DEBUG] - Creating a new SqlSession
+  2018-05-14-14-38 [http-nio-8080-exec-2] [org.mybatis.spring.SqlSessionUtils] [DEBUG] - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@9fcfd0a] was not registered for synchronization because synchronization is not active
+  2018-05-14-14-38 [http-nio-8080-exec-2] [org.springframework.jdbc.datasource.DataSourceUtils] [DEBUG] - Fetching JDBC Connection from DataSource
+  2018-05-14-14-38 [http-nio-8080-exec-2] [org.mybatis.spring.transaction.SpringManagedTransaction] [DEBUG] - JDBC Connection [com.dangdang.ddframe.rdb.sharding.jdbc.core.connection.ShardingConnection@dc378ed] will not be managed by Spring
+  2018-05-14-14-38 [http-nio-8080-exec-2] [org.mybatis.spring.SqlSessionUtils] [DEBUG] - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@9fcfd0a]
+  2018-05-14-14-38 [http-nio-8080-exec-2] [org.springframework.jdbc.datasource.DataSourceUtils] [DEBUG] - Returning JDBC Connection to DataSource
+  2018-05-14-14-38 [http-nio-8080-exec-2] [com.alibaba.druid.pool.PreparedStatementPool] [DEBUG] - {conn-10005, pstmt-20009} enter cache
+  2018-05-14-14-38 [http-nio-8080-exec-2] [com.alibaba.druid.pool.PreparedStatementPool] [DEBUG] - {conn-10005, pstmt-20010} enter cache
+  2018-05-14-14-38 [http-nio-8080-exec-2] [com.alibaba.druid.pool.PreparedStatementPool] [DEBUG] - {conn-110005, pstmt-120008} enter cache
+  2018-05-14-14-38 [http-nio-8080-exec-2] [com.alibaba.druid.pool.PreparedStatementPool] [DEBUG] - {conn-110005, pstmt-120009} enter cache
+  2018-05-14-14-38 [http-nio-8080-exec-2] [org.mybatis.spring.SqlSessionUtils] [DEBUG] - Creating a new SqlSession
+  2018-05-14-14-38 [http-nio-8080-exec-2] [org.mybatis.spring.SqlSessionUtils] [DEBUG] - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@1739a24f] was not registered for synchronization because synchronization is not active
+  2018-05-14-14-38 [http-nio-8080-exec-2] [org.springframework.jdbc.datasource.DataSourceUtils] [DEBUG] - Fetching JDBC Connection from DataSource
+  2018-05-14-14-38 [http-nio-8080-exec-2] [org.mybatis.spring.transaction.SpringManagedTransaction] [DEBUG] - JDBC Connection [com.dangdang.ddframe.rdb.sharding.jdbc.core.connection.ShardingConnection@79c3190f] will not be managed by Spring
+  2018-05-14-14-38 [http-nio-8080-exec-2] [org.mybatis.spring.SqlSessionUtils] [DEBUG] - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@1739a24f]
+  2018-05-14-14-38 [http-nio-8080-exec-2] [org.springframework.jdbc.datasource.DataSourceUtils] [DEBUG] - Returning JDBC Connection to DataSource
+  2018-05-14-14-38 [http-nio-8080-exec-2] [com.alibaba.druid.pool.PreparedStatementPool] [DEBUG] - {conn-10005, pstmt-20011} enter cache
+  2018-05-14-14-38 [http-nio-8080-exec-2] [com.xlj.shardingjdbc.controller.UserMapperControllerTest] [INFO] - 新增成功
+  2018-05-14-14-38 [http-nio-8080-exec-2] [org.mybatis.spring.SqlSessionUtils] [DEBUG] - Creating a new SqlSession
+  2018-05-14-14-38 [http-nio-8080-exec-2] [org.mybatis.spring.SqlSessionUtils] [DEBUG] - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@28ee087e] was not registered for synchronization because synchronization is not active
+  2018-05-14-14-38 [http-nio-8080-exec-2] [org.springframework.jdbc.datasource.DataSourceUtils] [DEBUG] - Fetching JDBC Connection from DataSource
+  2018-05-14-14-38 [http-nio-8080-exec-2] [org.mybatis.spring.transaction.SpringManagedTransaction] [DEBUG] - JDBC Connection [com.dangdang.ddframe.rdb.sharding.jdbc.core.connection.ShardingConnection@721fecf6] will not be managed by Spring
+  2018-05-14-14-38 [http-nio-8080-exec-2] [org.mybatis.spring.SqlSessionUtils] [DEBUG] - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@28ee087e]
+  2018-05-14-14-38 [http-nio-8080-exec-2] [org.springframework.jdbc.datasource.DataSourceUtils] [DEBUG] - Returning JDBC Connection to DataSource
+  2018-05-14-14-38 [http-nio-8080-exec-2] [com.alibaba.druid.pool.PreparedStatementPool] [DEBUG] - {conn-10005, pstmt-20012} enter cache
+  2018-05-14-14-38 [http-nio-8080-exec-2] [com.alibaba.druid.pool.PreparedStatementPool] [DEBUG] - {conn-10005, pstmt-20013} enter cache
+  2018-05-14-14-38 [http-nio-8080-exec-2] [com.alibaba.druid.pool.PreparedStatementPool] [DEBUG] - {conn-110005, pstmt-120010} enter cache
+  2018-05-14-14-38 [http-nio-8080-exec-2] [com.alibaba.druid.pool.PreparedStatementPool] [DEBUG] - {conn-110005, pstmt-120011} enter cache
+  2018-05-14-14-38 [http-nio-8080-exec-2] [com.xlj.shardingjdbc.controller.UserMapperControllerTest] [INFO] - all查询成功
+  2018-05-14-15-18 [main] [com.xlj.shardingjdbc.Application] [INFO] - Starting Application on Lenovo-PC with PID 7656 (F:\myProject\framework\sharding\sharding-jdbc-demo\target\classes started by LENOVO in F:\myProject\framework\sharding\sharding-jdbc-demo)
+  2018-05-14-15-18 [main] [com.xlj.shardingjdbc.Application] [INFO] - No active profile set, falling back to default profiles: default
+  2018-05-14-15-18 [main] [org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext] [INFO] - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@13d73f29: startup date [Mon May 14 15:18:54 CST 2018]; root of context hierarchy
+  2018-05-14-15-18 [background-preinit] [org.hibernate.validator.internal.util.Version] [INFO] - HV000001: Hibernate Validator 5.2.4.Final
+  2018-05-14-15-18 [main] [org.mybatis.spring.mapper.ClassPathMapperScanner] [DEBUG] - Identified candidate component class: file [F:\myProject\framework\sharding\sharding-jdbc-demo\target\classes\com\xlj\shardingjdbc\mapper\UserMapper.class]
+  2018-05-14-15-18 [main] [org.mybatis.spring.mapper.ClassPathMapperScanner] [DEBUG] - Creating MapperFactoryBean with name 'userMapper' and 'com.xlj.shardingjdbc.mapper.UserMapper' mapperInterface
+  2018-05-14-15-18 [main] [org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker] [INFO] - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [class org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$2caeb1a1] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+  2018-05-14-15-18 [main] [org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer] [INFO] - Tomcat initialized with port(s): 8080 (http)
+  2018-05-14-15-18 [localhost-startStop-1] [org.springframework.web.context.ContextLoader] [INFO] - Root WebApplicationContext: initialization completed in 5164 ms
+  2018-05-14-15-18 [localhost-startStop-1] [org.springframework.boot.web.servlet.ServletRegistrationBean] [INFO] - Mapping servlet: 'statViewServlet' to [/druid-stats/*]
+  2018-05-14-15-18 [localhost-startStop-1] [org.springframework.boot.web.servlet.ServletRegistrationBean] [INFO] - Mapping servlet: 'dispatcherServlet' to [/]
+  2018-05-14-15-18 [localhost-startStop-1] [org.springframework.boot.web.servlet.FilterRegistrationBean] [INFO] - Mapping filter: 'characterEncodingFilter' to: [/*]
+  2018-05-14-15-18 [localhost-startStop-1] [org.springframework.boot.web.servlet.FilterRegistrationBean] [INFO] - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+  2018-05-14-15-18 [localhost-startStop-1] [org.springframework.boot.web.servlet.FilterRegistrationBean] [INFO] - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+  2018-05-14-15-18 [localhost-startStop-1] [org.springframework.boot.web.servlet.FilterRegistrationBean] [INFO] - Mapping filter: 'requestContextFilter' to: [/*]
+  2018-05-14-15-18 [localhost-startStop-1] [org.springframework.boot.web.servlet.FilterRegistrationBean] [INFO] - Mapping filter: 'webStatFilter' to urls: [/*]
+  2018-05-14-15-19 [main] [com.alibaba.druid.pool.DruidDataSource] [INFO] - {dataSource-1} inited
+  2018-05-14-15-19 [main] [com.alibaba.druid.pool.DruidDataSource] [INFO] - {dataSource-2} inited
+  2018-05-14-15-19 [main] [org.apache.ibatis.logging.LogFactory] [DEBUG] - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+  2018-05-14-15-19 [main] [org.mybatis.spring.SqlSessionFactoryBean] [DEBUG] - Property 'configuration' or 'configLocation' not specified, using default MyBatis Configuration
+  2018-05-14-15-19 [main] [org.mybatis.spring.SqlSessionFactoryBean] [DEBUG] - Property 'mapperLocations' was not specified or no matching resources found
+  2018-05-14-15-19 [main] [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter] [INFO] - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@13d73f29: startup date [Mon May 14 15:18:54 CST 2018]; root of context hierarchy
+  2018-05-14-15-19 [main] [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] [INFO] - Mapped "{[/update]}" onto public void com.xlj.shardingjdbc.controller.UserMapperControllerTest.update() throws java.lang.Exception
+  2018-05-14-15-19 [main] [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] [INFO] - Mapped "{[/getAll]}" onto public void com.xlj.shardingjdbc.controller.UserMapperControllerTest.getAll() throws java.lang.Exception
+  2018-05-14-15-19 [main] [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] [INFO] - Mapped "{[/updateWithoutInsertFailure]}" onto public void com.xlj.shardingjdbc.controller.UserMapperControllerTest.updateWithoutInsertFailure()
+  2018-05-14-15-19 [main] [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] [INFO] - Mapped "{[/requestTest]}" onto public void com.xlj.shardingjdbc.controller.UserMapperControllerTest.requestTest()
+  2018-05-14-15-19 [main] [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] [INFO] - Mapped "{[/getOneSlave]}" onto public void com.xlj.shardingjdbc.controller.UserMapperControllerTest.getOneSlave() throws java.lang.Exception
+  2018-05-14-15-19 [main] [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] [INFO] - Mapped "{[/getOne]}" onto public void com.xlj.shardingjdbc.controller.UserMapperControllerTest.getOne() throws java.lang.Exception
+  2018-05-14-15-19 [main] [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] [INFO] - Mapped "{[/updateFailure]}" onto public void com.xlj.shardingjdbc.controller.UserMapperControllerTest.updateFailure()
+  2018-05-14-15-19 [main] [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] [INFO] - Mapped "{[/welcome]}" onto public java.lang.String com.xlj.shardingjdbc.SampleController.hello()
+  2018-05-14-15-19 [main] [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] [INFO] - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+  2018-05-14-15-19 [main] [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] [INFO] - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+  2018-05-14-15-19 [main] [org.springframework.web.servlet.handler.SimpleUrlHandlerMapping] [INFO] - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+  2018-05-14-15-19 [main] [org.springframework.web.servlet.handler.SimpleUrlHandlerMapping] [INFO] - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+  2018-05-14-15-19 [main] [org.springframework.web.servlet.handler.SimpleUrlHandlerMapping] [INFO] - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+  2018-05-14-15-19 [main] [org.springframework.jmx.export.annotation.AnnotationMBeanExporter] [INFO] - Registering beans for JMX exposure on startup
+  2018-05-14-15-19 [main] [org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer] [INFO] - Tomcat started on port(s): 8080 (http)
+  2018-05-14-15-19 [main] [com.xlj.shardingjdbc.Application] [INFO] - Started Application in 11.398 seconds (JVM running for 12.331)
+  2018-05-14-15-19 [http-nio-8080-exec-1] [org.springframework.web.servlet.DispatcherServlet] [INFO] - FrameworkServlet 'dispatcherServlet': initialization started
+  2018-05-14-15-19 [http-nio-8080-exec-1] [org.springframework.web.servlet.DispatcherServlet] [INFO] - FrameworkServlet 'dispatcherServlet': initialization completed in 42 ms
+  2018-05-14-15-19 [http-nio-8080-exec-2] [org.mybatis.spring.SqlSessionUtils] [DEBUG] - Creating a new SqlSession
+  2018-05-14-15-19 [http-nio-8080-exec-2] [org.mybatis.spring.SqlSessionUtils] [DEBUG] - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6e5e9774] was not registered for synchronization because synchronization is not active
+  2018-05-14-15-19 [http-nio-8080-exec-2] [org.springframework.jdbc.datasource.DataSourceUtils] [DEBUG] - Fetching JDBC Connection from DataSource
+  2018-05-14-15-19 [http-nio-8080-exec-2] [org.mybatis.spring.transaction.SpringManagedTransaction] [DEBUG] - JDBC Connection [com.dangdang.ddframe.rdb.sharding.jdbc.core.connection.ShardingConnection@3902b60f] will not be managed by Spring
+  2018-05-14-15-19 [http-nio-8080-exec-2] [org.mybatis.spring.SqlSessionUtils] [DEBUG] - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6e5e9774]
+  2018-05-14-15-19 [http-nio-8080-exec-2] [org.springframework.jdbc.datasource.DataSourceUtils] [DEBUG] - Returning JDBC Connection to DataSource
+  2018-05-14-15-19 [http-nio-8080-exec-2] [com.alibaba.druid.pool.PreparedStatementPool] [DEBUG] - {conn-10003, pstmt-20002} enter cache
+  2018-05-14-15-19 [http-nio-8080-exec-2] [com.alibaba.druid.pool.PreparedStatementPool] [DEBUG] - {conn-10003, pstmt-20003} enter cache
+  2018-05-14-15-19 [http-nio-8080-exec-2] [com.alibaba.druid.pool.PreparedStatementPool] [DEBUG] - {conn-110003, pstmt-120002} enter cache
+  2018-05-14-15-19 [http-nio-8080-exec-2] [com.alibaba.druid.pool.PreparedStatementPool] [DEBUG] - {conn-110003, pstmt-120003} enter cache
+  2018-05-14-15-19 [http-nio-8080-exec-2] [org.mybatis.spring.SqlSessionUtils] [DEBUG] - Creating a new SqlSession
+  2018-05-14-15-19 [http-nio-8080-exec-2] [org.mybatis.spring.SqlSessionUtils] [DEBUG] - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@7fe1d30c] was not registered for synchronization because synchronization is not active
+  2018-05-14-15-19 [http-nio-8080-exec-2] [org.springframework.jdbc.datasource.DataSourceUtils] [DEBUG] - Fetching JDBC Connection from DataSource
+  2018-05-14-15-19 [http-nio-8080-exec-2] [org.mybatis.spring.transaction.SpringManagedTransaction] [DEBUG] - JDBC Connection [com.dangdang.ddframe.rdb.sharding.jdbc.core.connection.ShardingConnection@c7a2818] will not be managed by Spring
+  2018-05-14-15-19 [http-nio-8080-exec-2] [org.mybatis.spring.SqlSessionUtils] [DEBUG] - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@7fe1d30c]
+  2018-05-14-15-19 [http-nio-8080-exec-2] [org.springframework.jdbc.datasource.DataSourceUtils] [DEBUG] - Returning JDBC Connection to DataSource
+  2018-05-14-15-28 [http-nio-8080-exec-3] [org.mybatis.spring.SqlSessionUtils] [DEBUG] - Creating a new SqlSession
+  2018-05-14-15-28 [http-nio-8080-exec-3] [org.mybatis.spring.SqlSessionUtils] [DEBUG] - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@7736c06b] was not registered for synchronization because synchronization is not active
+  2018-05-14-15-28 [http-nio-8080-exec-3] [org.springframework.jdbc.datasource.DataSourceUtils] [DEBUG] - Fetching JDBC Connection from DataSource
+  2018-05-14-15-28 [http-nio-8080-exec-3] [org.mybatis.spring.transaction.SpringManagedTransaction] [DEBUG] - JDBC Connection [com.dangdang.ddframe.rdb.sharding.jdbc.core.connection.ShardingConnection@79f120fd] will not be managed by Spring
+  2018-05-14-15-28 [http-nio-8080-exec-3] [org.mybatis.spring.SqlSessionUtils] [DEBUG] - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@7736c06b]
+  2018-05-14-15-28 [http-nio-8080-exec-3] [org.springframework.jdbc.datasource.DataSourceUtils] [DEBUG] - Returning JDBC Connection to DataSource
+  2018-05-14-15-28 [http-nio-8080-exec-3] [com.alibaba.druid.pool.PreparedStatementPool] [DEBUG] - {conn-10005, pstmt-20006} enter cache
+  2018-05-14-15-28 [http-nio-8080-exec-3] [com.alibaba.druid.pool.PreparedStatementPool] [DEBUG] - {conn-10005, pstmt-20007} enter cache
+  2018-05-14-15-28 [http-nio-8080-exec-3] [com.alibaba.druid.pool.PreparedStatementPool] [DEBUG] - {conn-110005, pstmt-120006} enter cache
+  2018-05-14-15-28 [http-nio-8080-exec-3] [com.alibaba.druid.pool.PreparedStatementPool] [DEBUG] - {conn-110005, pstmt-120007} enter cache
+  2018-05-14-15-28 [http-nio-8080-exec-3] [org.mybatis.spring.SqlSessionUtils] [DEBUG] - Creating a new SqlSession
+  2018-05-14-15-28 [http-nio-8080-exec-3] [org.mybatis.spring.SqlSessionUtils] [DEBUG] - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@9beb12e] was not registered for synchronization because synchronization is not active
+  2018-05-14-15-28 [http-nio-8080-exec-3] [org.springframework.jdbc.datasource.DataSourceUtils] [DEBUG] - Fetching JDBC Connection from DataSource
+  2018-05-14-15-28 [http-nio-8080-exec-3] [org.mybatis.spring.transaction.SpringManagedTransaction] [DEBUG] - JDBC Connection [com.dangdang.ddframe.rdb.sharding.jdbc.core.connection.ShardingConnection@1204571] will not be managed by Spring
+  2018-05-14-15-28 [http-nio-8080-exec-3] [com.dangdang.ddframe.rdb.sharding.keygen.DefaultKeyGenerator] [DEBUG] - 2018-05-14 15:28:59.842-0-0
+  2018-05-14-15-28 [http-nio-8080-exec-3] [org.mybatis.spring.SqlSessionUtils] [DEBUG] - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@9beb12e]
+  2018-05-14-15-28 [http-nio-8080-exec-3] [org.springframework.jdbc.datasource.DataSourceUtils] [DEBUG] - Returning JDBC Connection to DataSource
+  2018-05-14-15-28 [http-nio-8080-exec-3] [com.alibaba.druid.pool.PreparedStatementPool] [DEBUG] - {conn-10005, pstmt-20008} enter cache
+  2018-05-14-15-28 [http-nio-8080-exec-3] [com.xlj.shardingjdbc.controller.UserMapperControllerTest] [INFO] - Generated Key--userId:202808606712659968mod:1
+  2018-05-14-15-28 [http-nio-8080-exec-3] [org.mybatis.spring.SqlSessionUtils] [DEBUG] - Creating a new SqlSession
+  2018-05-14-15-28 [http-nio-8080-exec-3] [org.mybatis.spring.SqlSessionUtils] [DEBUG] - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@38067f8b] was not registered for synchronization because synchronization is not active
+  2018-05-14-15-28 [http-nio-8080-exec-3] [org.springframework.jdbc.datasource.DataSourceUtils] [DEBUG] - Fetching JDBC Connection from DataSource
+  2018-05-14-15-28 [http-nio-8080-exec-3] [org.mybatis.spring.transaction.SpringManagedTransaction] [DEBUG] - JDBC Connection [com.dangdang.ddframe.rdb.sharding.jdbc.core.connection.ShardingConnection@35eacae3] will not be managed by Spring
+  2018-05-14-15-29 [http-nio-8080-exec-3] [org.mybatis.spring.SqlSessionUtils] [DEBUG] - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@38067f8b]
+  2018-05-14-15-29 [http-nio-8080-exec-3] [org.springframework.jdbc.datasource.DataSourceUtils] [DEBUG] - Returning JDBC Connection to DataSource
+  2018-05-14-15-29 [http-nio-8080-exec-3] [com.alibaba.druid.pool.PreparedStatementPool] [DEBUG] - {conn-10005, pstmt-20009} enter cache
+  2018-05-14-15-29 [http-nio-8080-exec-3] [com.alibaba.druid.pool.PreparedStatementPool] [DEBUG] - {conn-110005, pstmt-120008} enter cache
+  2018-05-14-15-29 [http-nio-8080-exec-3] [com.xlj.shardingjdbc.controller.UserMapperControllerTest] [INFO] - insertTest
+  
